@@ -48,7 +48,8 @@ body {
     position: absolute;
     width: 100%;
     text-align: center;
-    top: 80;
+    top: 0;
+   
 }
 
 .numbertext {
@@ -86,4 +87,8 @@ body {
 
 .information {
     position: absolute;
+}
+
+h2 {
+    font-size: 70px;
 }
