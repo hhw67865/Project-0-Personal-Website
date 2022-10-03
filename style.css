@@ -7,6 +7,9 @@ body {
     max-width: 1000px;
     position: relative;
     margin: auto;
+    width: 100%;
+    height: 300px;
+    background: #bbb;
 }
 
 .mySlides {
@@ -42,9 +45,9 @@ body {
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
-    bottom: 8px;
     width: 100%;
     text-align: center;
+    top: 80;
 }
 
 .numbertext {
