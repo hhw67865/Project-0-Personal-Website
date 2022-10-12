@@ -1,8 +1,27 @@
 body {
     background: #E1CEB1;
+    display:flex;
+    justify-content:center;
+    align-items: flex-start;
+    min-height: 10vh;
        
 }
-* {box-sizing: border-box;}
+
+.box{
+    position: relative;
+    max-width: 1200px;
+    height: auto;
+    padding: 40px;
+    line-height: 1.7;
+    margin: 50px auto;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.403) 0px 10px 20px;
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: white;
+    border: #7CE0F9;
+}
+
 
 .slideshow-container {
     max-width: 1000px;
@@ -89,8 +108,8 @@ body {
 .information {
     position: absolute;
     text-align: center;
-    max-width: 1300px;
-    margin: 0 auto;
+    max-width: 1000px;
+    margin: auto;
     width: 100%;
     
 }
